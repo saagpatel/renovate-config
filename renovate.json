@@ -4,7 +4,7 @@
 	"platform": "github",
 	"repositories": [
 		"saagpatel/Premise",
-		"saagpatel/Sovereign",
+		"saagpatel/sovereign",
 		"saagpatel/signal-noise",
 		"saagpatel/NeuralNetwork",
 		"saagpatel/OrbitMechanics",
