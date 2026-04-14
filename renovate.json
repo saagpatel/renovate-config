@@ -1,6 +1,15 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"description": "Shared Renovate config for saagpatel portfolio (63+ repos)",
+	"description": "Shared Renovate config for saagpatel portfolio",
+	"platform": "github",
+	"repositories": [
+		"saagpatel/Premise",
+		"saagpatel/Sovereign",
+		"saagpatel/Signal-and-Noise",
+		"saagpatel/NeuralNetwork",
+		"saagpatel/OrbitMechanic",
+		"saagpatel/HowMoneyMoves"
+	],
 	"extends": [
 		"config:recommended",
 		"group:allNonMajor",
