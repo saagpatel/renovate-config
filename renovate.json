@@ -5,9 +5,9 @@
 	"repositories": [
 		"saagpatel/Premise",
 		"saagpatel/Sovereign",
-		"saagpatel/Signal-and-Noise",
+		"saagpatel/signal-noise",
 		"saagpatel/NeuralNetwork",
-		"saagpatel/OrbitMechanic",
+		"saagpatel/OrbitMechanics",
 		"saagpatel/HowMoneyMoves"
 	],
 	"extends": [
