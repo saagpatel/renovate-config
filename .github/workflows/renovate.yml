@@ -4,12 +4,15 @@ on:
     - cron: '0 12 * * 1' # Monday noon UTC (8am ET)
   workflow_dispatch: # manual trigger
 
+permissions:
+  contents: read
+
 jobs:
   renovate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
-      - uses: renovatebot/github-action@v46.3.4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: renovatebot/github-action@f3a31a786096ba6b40d0f0ffe11a494ef73bfa7c # v46.3.4
         with:
           configurationFile: renovate.json
           token: ${{ secrets.RENOVATE_TOKEN }}
